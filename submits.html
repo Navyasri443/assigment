@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            different styles of submit buttons
+        </title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <input type="submit" class="btn btn-outline-primary">
+        <br>
+        <input type="submit" class="btn btn-outline-secondary">
+        <br>
+        <input type="submit" class="btn btn-outline-success">
+        <br>
+        <input type="submit" class="btn btn-outline-warning">
+        <br>
+        <input type="submit" class="btn btn-outline-info">
+        <br>
+        <input type="submit" class="btn btn-outline-light">
+        <div>
+            <input class="input-group" style="width:400px">
+            <input type="text" placeholder="User id or Email" class="btn btn-outline-primary">
+            <br>
+            <input type="text" placeholder="Password" class="btn btn-outline-primary">
+            <br>
+        </div>
+
+        <br><br>
+        <ul class="list-group">
+            <li class="list-group-item" >First</li>
+            <li class="list-group-item active" >Second</li>
+            <li class="list-group-item disabled" >Third</li>
+        </ul>
+        <br><br>
+        <div style="display:flex" class="alert alert-dismissable alert-sucess fade show "role="alert">
+            <h1 style="color: red;">This is an alert message.</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="status"></button>
+    </div>
+    <br><br>
+    <div class="spinner-border spinner-border-lg text-primary" role="status"></div>
+</div>
+<br>
+<div class="spinner-grow" role="status"></div> 
+<br>
+<button type="button" class="btn btn-primary">
+    <div class="spinner-grow spinner-grow-sm"role="status"></div>
+    loading....
+    </button>
+        </div>
+
+
+        <script src="js/bootstrap.min.js"></script>
+     </body>
+</html>
